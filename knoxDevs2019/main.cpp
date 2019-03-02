@@ -8,6 +8,7 @@
 #include "patients.h"
 #include "list.h"
 #include "node.h"
+
 #define MAX_FILENAME 51;
 
 int main(int argc, char* argv[]) {
