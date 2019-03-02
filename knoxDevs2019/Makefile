@@ -8,8 +8,8 @@ CFLAGS=-c Wextra
 
 all: client
 
-client: main.o list.o node.o clients.o utilities.o
-	$(CC) $(CFLAGS) main.cpp list.c node.c clients.c utilities.c -o client
+clients: main.o list.o node.o clients.o utilities.o
+	$(CC) $(CFLAGS) main.cpp list.c node.c clients.c utilities.c -o clients
 
 main: main.o
 	$(CC) $(CFLAGS) main.cpp
