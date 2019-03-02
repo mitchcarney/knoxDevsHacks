@@ -15,7 +15,6 @@ int main(int argc, char* argv[]) {
  char filename[MAX_FILENAME];
  ifstream input;
  client clients;
- int option;
  if (argc<2) {
 	printf("Error: app filename\n");
  }
@@ -52,6 +51,8 @@ int main(int argc, char* argv[]) {
 }
 
  input.close();
+
+ int option;
  while (option!=4) { 	
  printf("Welcome to HealthPort Services\n");
  printf("------------------------------\n");
@@ -82,13 +83,34 @@ int main(int argc, char* argv[]) {
 		//your dad
 		break;
 	case 3:
-		//your bald-head granny
+		node_t* popNode( dbl_linked_list_t* list ) {
+
+        node_t* nodePtr;
+
+        	if ( list != NULL && list -> headPtr != NULL) {
+               		nodePtr = list -> headPtr;
+               		list -> headPtr = nodePtr -> nextPtr;
+                	if( list -> headPtr != NULL ) {
+                        	list -> headPtr -> prevPtr = NULL;
+                	}
+                	else if ( list -> headPtr == NULL ) {
+                        	list -> tailPtr = NULL;
+                	}
+                	nodePtr -> prevPtr = NULL;
+                	nodePtr -> nextPtr = NULL;
+                	return nodePtr;
+        		}
+			else {
+              		return NULL;
+        		}
+		}
 		break;
 	case 4:
-		//quit programa
+		cout << "Thank you for using  - APP NAME HERE -! Have a great day!" << endl;
 		break;
 	default:
-		//you mom gay
+		cout << "Error: Invalid option. Please try again." << endl;
+}
 
 return (0);
 }
