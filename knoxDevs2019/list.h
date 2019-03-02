@@ -11,7 +11,7 @@ typedef struct {
 } dbl_linked_list_t;
 
 
-printClient(list_t* list);
+printClient(list_t*);
 
 #endif
 
