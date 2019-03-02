@@ -10,6 +10,12 @@ typedef struct {
         node_t* tailPtr;
 } dbl_linked_list_t;
 
+
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
 #endif
 
 
