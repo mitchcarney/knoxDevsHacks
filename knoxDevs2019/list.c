@@ -154,11 +154,126 @@ char* asctime(const struct tm *timeptr){
 	        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
 			"Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
 		};
-		static char result[26];
+	
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}	static char result[26];
 		sprintf(result, "%.3s %.3s%3d %.2d:%.2d:%.2d %d\n",
 		wday_name[timeptr->tm_wday],
 		mon_name[timeptr->tm_mon],
-		timeptr->tm_mday, timeptr->tm_hour,
+	
+printClient(list_t* listPtr){
+		asctime(*timePtr);
+		printf("%s, %s\n" curPtr->client.lastName, curPtr->client.firstName);
+		printf("Appointment Time: %d / %d / %d\n", month, day, year);
+}	timeptr->tm_mday, timeptr->tm_hour,
 		timeptr->tm_min, timeptr->tm_sec,
 		1900 + timeptr->tm_year);
 		return result;
