@@ -1,5 +1,5 @@
 #ifndef PATIENTS_H
-#def PATIENTS_H
+#define PATIENTS_H
 #include "appointments.h"
 
 
