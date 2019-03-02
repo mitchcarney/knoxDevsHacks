@@ -5,7 +5,7 @@
 #include <fstream>
 #include <stdio.h>
 #include <stdlib.h>
-#include "patients.h"
+#include "clients.h"
 #include "list.h"
 #include "node.h"
 #define MAX_FILENAME 51;
@@ -15,6 +15,7 @@ int main(int argc, char* argv[]) {
  char filename[MAX_FILENAME];
  ifstream input;
  client clients;
+ int option;
  if (argc<2) {
 	printf("Error: app filename\n");
  }
@@ -51,8 +52,6 @@ int main(int argc, char* argv[]) {
 }
 
  input.close();
-
- int option;
  while (option!=4) { 	
  printf("Welcome to HealthPort Services\n");
  printf("------------------------------\n");
@@ -76,41 +75,22 @@ int main(int argc, char* argv[]) {
 
  switch(option){
 
-	case 1: 
-		//your mom
+	case 1:
+		
 		break;
 	case 2: 
-		//your dad
+		Printf("Enter a Person to Search");
+		scanf("%s", nameKey);
+		makeLowerCase(nameKey,tempKey);
+		searchByName(nameKey,list)
 		break;
 	case 3:
-		node_t* popNode( dbl_linked_list_t* list ) {
-
-        node_t* nodePtr;
-
-        	if ( list != NULL && list -> headPtr != NULL) {
-               		nodePtr = list -> headPtr;
-               		list -> headPtr = nodePtr -> nextPtr;
-                	if( list -> headPtr != NULL ) {
-                        	list -> headPtr -> prevPtr = NULL;
-                	}
-                	else if ( list -> headPtr == NULL ) {
-                        	list -> tailPtr = NULL;
-                	}
-                	nodePtr -> prevPtr = NULL;
-                	nodePtr -> nextPtr = NULL;
-                	return nodePtr;
-        		}
-			else {
-              		return NULL;
-        		}
-		}
 		break;
 	case 4:
-		cout << "Thank you for using  - APP NAME HERE -! Have a great day!" << endl;
+		printf("Goodbye, Thank You For Using HealthPort Services\n");
 		break;
 	default:
-		cout << "Error: Invalid option. Please try again." << endl;
-}
+		printf("Error, Option must be between 1-4\n");
 
 return (0);
 }
