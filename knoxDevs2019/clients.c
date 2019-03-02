@@ -1,7 +1,7 @@
 #include "clients.h"
 #include <iostream>
 #include <stdio.h>
-
+#include <cstring>
 
 printClient(client c){
                 asctime(*timePtr);
