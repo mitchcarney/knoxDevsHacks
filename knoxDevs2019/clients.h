@@ -1,6 +1,5 @@
 #ifndef PATIENTS_H
 #define PATIENTS_H
-#include "appointments.h"
 
 
 typedef struct client_t{
