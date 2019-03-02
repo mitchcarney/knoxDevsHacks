@@ -4,7 +4,7 @@
 CC=gcc
 
 # compiler options
-CFLAGS=-c Wextra
+CFLAGS=-c -Wextra
 
 all: client
 
