@@ -28,4 +28,3 @@ utilities: utilities.o
 
 clear: 
 	rm -rf *.o
-
