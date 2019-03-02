@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <StartAction>Project</StartAction>
+    <StartArguments>Tyler vis m d y 1 main st 37919 8657716722 lol lol statehahah cityhahaha</StartArguments>
+  </PropertyGroup>
+</Project>
